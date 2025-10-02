@@ -1,18 +1,10 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-useless-escape */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable max-len */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable react/prop-types */
 import React from "react";
 
 import { Fade } from "react-awesome-reveal";
-// eslint-disable-next-line import/no-extraneous-dependencies
+
 import * as emailjs from "@emailjs/browser";
-// eslint-disable-next-line import/no-extraneous-dependencies
+
 import { ToastContainer, toast } from "react-toastify";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import "react-toastify/dist/ReactToastify.css";
 
 import { Form } from "elements/Form";
@@ -67,7 +59,6 @@ export const DiscussForm = (actions) => {
 
       <Fade direction="up" triggerOnce>
         <p className="font-light text-lg text-gray-400 text-center mb-12">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           Please fill out the form below to discuss your project and we'll get
           back to you in less than 24 hours.
         </p>
